@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PLACEMENTS</key>
+	<array>
+		<dict>
+			<key>KEY</key>
+			<string></string>
+			<key>NAME</key>
+			<string>Flat Screen</string>
+			<key>ICON</key>
+			<string>flat-screen-tv</string>
+			<key>CAM</key>
+			<string>back</string>
+		</dict>
+		<dict>
+			<key>KEY</key>
+			<string></string>
+			<key>NAME</key>
+			<string>Retro TV</string>
+			<key>ICON</key>
+			<string>retro-tv</string>
+			<key>CAM</key>
+			<string>back</string>
+		</dict>
+		<dict>
+			<key>KEY</key>
+			<string></string>
+			<key>NAME</key>
+			<string>Dog Food</string>
+			<key>ICON</key>
+			<string>petfood-bag</string>
+			<key>CAM</key>
+			<string>back</string>
+		</dict>
+		<dict>
+			<key>KEY</key>
+			<string></string>
+			<key>NAME</key>
+			<string>Pizza Box</string>
+			<key>ICON</key>
+			<string>pizza-box</string>
+			<key>CAM</key>
+			<string>back</string>
+		</dict>
+		<dict>
+			<key>KEY</key>
+			<string></string>
+			<key>NAME</key>
+			<string>Baseball Cap</string>
+			<key>ICON</key>
+			<string>baseball-cap</string>
+			<key>CAM</key>
+			<string>front</string>
+		</dict>
+		<dict>
+			<key>KEY</key>
+			<string></string>
+			<key>NAME</key>
+			<string>Sunglasses</string>
+			<key>ICON</key>
+			<string>sunglasses</string>
+			<key>CAM</key>
+			<string>front</string>
+		</dict>
+	</array>
+</dict>
+</plist>

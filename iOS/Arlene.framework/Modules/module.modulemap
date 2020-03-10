@@ -1,0 +1,4 @@
+framework module Arlene {
+  header "Arlene-Swift.h"
+  requires objc
+}

@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1354C6523CB7A3F0022E925 /* Arlene.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1354C6323CB77DA0022E925 /* Arlene.framework */; };
+		A1354C6623CB7A3F0022E925 /* Arlene.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1354C6323CB77DA0022E925 /* Arlene.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A18B67FB23CBAE1B008E0CF0 /* placementsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A18B67FA23CBAE1B008E0CF0 /* placementsConfig.plist */; };
+		A19D35C123DC0C6700E74245 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D35C023DC0C6700E74245 /* Int+Extensions.swift */; };
+		FA1C7EDC22BD9AAA00970800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C7EDB22BD9AAA00970800 /* AppDelegate.swift */; };
+		FA1C7EDE22BD9AAA00970800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C7EDD22BD9AAA00970800 /* ViewController.swift */; };
+		FA1C7EE122BD9AAA00970800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1C7EDF22BD9AAA00970800 /* Main.storyboard */; };
+		FA1C7EE322BD9AAC00970800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1C7EE222BD9AAC00970800 /* Assets.xcassets */; };
+		FA1C7EE622BD9AAC00970800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1C7EE422BD9AAC00970800 /* LaunchScreen.storyboard */; };
+		FA1C7EF122BD9AAC00970800 /* Arlene_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C7EF022BD9AAC00970800 /* Arlene_DemoTests.swift */; };
+		FA1C7EFC22BD9AAC00970800 /* Arlene_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C7EFB22BD9AAC00970800 /* Arlene_DemoUITests.swift */; };
+		FA1C7F0A22BD9C5600970800 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C7F0922BD9C5600970800 /* Plane.swift */; };
+		FA1C7F0C22BD9C9C00970800 /* GridMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C7F0B22BD9C9C00970800 /* GridMaterial.swift */; };
+		FA1C7F1022BD9E3100970800 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C7F0F22BD9E3100970800 /* HelperFunctions.swift */; };
+		FA1C7F1222BD9E5A00970800 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA1C7F1122BD9E5A00970800 /* keys.plist */; };
+		FA30E20323A670BA00B3782D /* ArleneDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E20223A670BA00B3782D /* ArleneDemoVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1C7EED22BD9AAC00970800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1C7ED022BD9AAA00970800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1C7ED722BD9AAA00970800;
+			remoteInfo = "Arlene Demo";
+		};
+		FA1C7EF822BD9AAC00970800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1C7ED022BD9AAA00970800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1C7ED722BD9AAA00970800;
+			remoteInfo = "Arlene Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA43348323A4B9B600735A60 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1354C6623CB7A3F0022E925 /* Arlene.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1354C6323CB77DA0022E925 /* Arlene.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Arlene.framework; sourceTree = "<group>"; };
+		A18B67FA23CBAE1B008E0CF0 /* placementsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = placementsConfig.plist; sourceTree = "<group>"; };
+		A19D35C023DC0C6700E74245 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		FA1C7ED822BD9AAA00970800 /* Arlene Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arlene Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1C7EDB22BD9AAA00970800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1C7EDD22BD9AAA00970800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA1C7EE022BD9AAA00970800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1C7EE222BD9AAC00970800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1C7EE522BD9AAC00970800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA1C7EE722BD9AAC00970800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1C7EEC22BD9AAC00970800 /* Arlene DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arlene DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1C7EF022BD9AAC00970800 /* Arlene_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arlene_DemoTests.swift; sourceTree = "<group>"; };
+		FA1C7EF222BD9AAC00970800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1C7EF722BD9AAC00970800 /* Arlene DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arlene DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1C7EFB22BD9AAC00970800 /* Arlene_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arlene_DemoUITests.swift; sourceTree = "<group>"; };
+		FA1C7EFD22BD9AAC00970800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1C7F0922BD9C5600970800 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		FA1C7F0B22BD9C9C00970800 /* GridMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridMaterial.swift; sourceTree = "<group>"; };
+		FA1C7F0F22BD9E3100970800 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		FA1C7F1122BD9E5A00970800 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		FA30E20223A670BA00B3782D /* ArleneDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArleneDemoVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1C7ED522BD9AAA00970800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1354C6523CB7A3F0022E925 /* Arlene.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C7EE922BD9AAC00970800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C7EF422BD9AAC00970800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1C7ECF22BD9AAA00970800 = {
+			isa = PBXGroup;
+			children = (
+				A1354C6323CB77DA0022E925 /* Arlene.framework */,
+				FA1C7EDA22BD9AAA00970800 /* Arlene Demo */,
+				FA1C7EEF22BD9AAC00970800 /* Arlene DemoTests */,
+				FA1C7EFA22BD9AAC00970800 /* Arlene DemoUITests */,
+				FA1C7ED922BD9AAA00970800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1C7ED922BD9AAA00970800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C7ED822BD9AAA00970800 /* Arlene Demo.app */,
+				FA1C7EEC22BD9AAC00970800 /* Arlene DemoTests.xctest */,
+				FA1C7EF722BD9AAC00970800 /* Arlene DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1C7EDA22BD9AAA00970800 /* Arlene Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C7EDB22BD9AAA00970800 /* AppDelegate.swift */,
+				FA1C7F0F22BD9E3100970800 /* HelperFunctions.swift */,
+				FA1C7F0B22BD9C9C00970800 /* GridMaterial.swift */,
+				FA1C7F0922BD9C5600970800 /* Plane.swift */,
+				FA1C7EDD22BD9AAA00970800 /* ViewController.swift */,
+				FA30E20223A670BA00B3782D /* ArleneDemoVC.swift */,
+				A19D35C023DC0C6700E74245 /* Int+Extensions.swift */,
+				FA1C7EDF22BD9AAA00970800 /* Main.storyboard */,
+				A18B67FA23CBAE1B008E0CF0 /* placementsConfig.plist */,
+				FA1C7F1122BD9E5A00970800 /* keys.plist */,
+				FA1C7EE222BD9AAC00970800 /* Assets.xcassets */,
+				FA1C7EE422BD9AAC00970800 /* LaunchScreen.storyboard */,
+				FA1C7EE722BD9AAC00970800 /* Info.plist */,
+			);
+			path = "Arlene Demo";
+			sourceTree = "<group>";
+		};
+		FA1C7EEF22BD9AAC00970800 /* Arlene DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C7EF022BD9AAC00970800 /* Arlene_DemoTests.swift */,
+				FA1C7EF222BD9AAC00970800 /* Info.plist */,
+			);
+			path = "Arlene DemoTests";
+			sourceTree = "<group>";
+		};
+		FA1C7EFA22BD9AAC00970800 /* Arlene DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C7EFB22BD9AAC00970800 /* Arlene_DemoUITests.swift */,
+				FA1C7EFD22BD9AAC00970800 /* Info.plist */,
+			);
+			path = "Arlene DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1C7ED722BD9AAA00970800 /* Arlene Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C7F0022BD9AAC00970800 /* Build configuration list for PBXNativeTarget "Arlene Demo" */;
+			buildPhases = (
+				FA1C7ED422BD9AAA00970800 /* Sources */,
+				FA1C7ED522BD9AAA00970800 /* Frameworks */,
+				FA1C7ED622BD9AAA00970800 /* Resources */,
+				FA43348323A4B9B600735A60 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arlene Demo";
+			productName = "Arlene Demo";
+			productReference = FA1C7ED822BD9AAA00970800 /* Arlene Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1C7EEB22BD9AAC00970800 /* Arlene DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C7F0322BD9AAC00970800 /* Build configuration list for PBXNativeTarget "Arlene DemoTests" */;
+			buildPhases = (
+				FA1C7EE822BD9AAC00970800 /* Sources */,
+				FA1C7EE922BD9AAC00970800 /* Frameworks */,
+				FA1C7EEA22BD9AAC00970800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1C7EEE22BD9AAC00970800 /* PBXTargetDependency */,
+			);
+			name = "Arlene DemoTests";
+			productName = "Arlene DemoTests";
+			productReference = FA1C7EEC22BD9AAC00970800 /* Arlene DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA1C7EF622BD9AAC00970800 /* Arlene DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1C7F0622BD9AAC00970800 /* Build configuration list for PBXNativeTarget "Arlene DemoUITests" */;
+			buildPhases = (
+				FA1C7EF322BD9AAC00970800 /* Sources */,
+				FA1C7EF422BD9AAC00970800 /* Frameworks */,
+				FA1C7EF522BD9AAC00970800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1C7EF922BD9AAC00970800 /* PBXTargetDependency */,
+			);
+			name = "Arlene DemoUITests";
+			productName = "Arlene DemoUITests";
+			productReference = FA1C7EF722BD9AAC00970800 /* Arlene DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1C7ED022BD9AAA00970800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Macbook;
+				TargetAttributes = {
+					FA1C7ED722BD9AAA00970800 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FA1C7EEB22BD9AAC00970800 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA1C7ED722BD9AAA00970800;
+					};
+					FA1C7EF622BD9AAC00970800 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA1C7ED722BD9AAA00970800;
+					};
+				};
+			};
+			buildConfigurationList = FA1C7ED322BD9AAA00970800 /* Build configuration list for PBXProject "Arlene Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1C7ECF22BD9AAA00970800;
+			productRefGroup = FA1C7ED922BD9AAA00970800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1C7ED722BD9AAA00970800 /* Arlene Demo */,
+				FA1C7EEB22BD9AAC00970800 /* Arlene DemoTests */,
+				FA1C7EF622BD9AAC00970800 /* Arlene DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1C7ED622BD9AAA00970800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C7F1222BD9E5A00970800 /* keys.plist in Resources */,
+				FA1C7EE622BD9AAC00970800 /* LaunchScreen.storyboard in Resources */,
+				A18B67FB23CBAE1B008E0CF0 /* placementsConfig.plist in Resources */,
+				FA1C7EE322BD9AAC00970800 /* Assets.xcassets in Resources */,
+				FA1C7EE122BD9AAA00970800 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C7EEA22BD9AAC00970800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C7EF522BD9AAC00970800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1C7ED422BD9AAA00970800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C7EDE22BD9AAA00970800 /* ViewController.swift in Sources */,
+				FA1C7F0A22BD9C5600970800 /* Plane.swift in Sources */,
+				FA30E20323A670BA00B3782D /* ArleneDemoVC.swift in Sources */,
+				FA1C7F0C22BD9C9C00970800 /* GridMaterial.swift in Sources */,
+				A19D35C123DC0C6700E74245 /* Int+Extensions.swift in Sources */,
+				FA1C7EDC22BD9AAA00970800 /* AppDelegate.swift in Sources */,
+				FA1C7F1022BD9E3100970800 /* HelperFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C7EE822BD9AAC00970800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C7EF122BD9AAC00970800 /* Arlene_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1C7EF322BD9AAC00970800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C7EFC22BD9AAC00970800 /* Arlene_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1C7EEE22BD9AAC00970800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1C7ED722BD9AAA00970800 /* Arlene Demo */;
+			targetProxy = FA1C7EED22BD9AAC00970800 /* PBXContainerItemProxy */;
+		};
+		FA1C7EF922BD9AAC00970800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1C7ED722BD9AAA00970800 /* Arlene Demo */;
+			targetProxy = FA1C7EF822BD9AAC00970800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA1C7EDF22BD9AAA00970800 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1C7EE022BD9AAA00970800 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1C7EE422BD9AAC00970800 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1C7EE522BD9AAC00970800 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1C7EFE22BD9AAC00970800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1C7EFF22BD9AAC00970800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1C7F0122BD9AAC00970800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Arlene Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DSEEMS_TO_HAVE_VALIDATE_VERTEX_ATTRIBUTE_BUG -DSEEMS_TO_HAVE_PNG_LOADING_BUG -DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = io.arlene.iOS.demo;
+				PRODUCT_NAME = "Arlene Demo";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1C7F0222BD9AAC00970800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Arlene Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DSEEMS_TO_HAVE_VALIDATE_VERTEX_ATTRIBUTE_BUG -DSEEMS_TO_HAVE_PNG_LOADING_BUG -DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = io.arlene.iOS.demo;
+				PRODUCT_NAME = "Arlene Demo";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA1C7F0422BD9AAC00970800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.arlene.Arlene-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arlene Demo.app/Arlene Demo";
+			};
+			name = Debug;
+		};
+		FA1C7F0522BD9AAC00970800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.arlene.Arlene-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arlene Demo.app/Arlene Demo";
+			};
+			name = Release;
+		};
+		FA1C7F0722BD9AAC00970800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.arlene.Arlene-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arlene Demo";
+			};
+			name = Debug;
+		};
+		FA1C7F0822BD9AAC00970800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.arlene.Arlene-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arlene Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1C7ED322BD9AAA00970800 /* Build configuration list for PBXProject "Arlene Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C7EFE22BD9AAC00970800 /* Debug */,
+				FA1C7EFF22BD9AAC00970800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1C7F0022BD9AAC00970800 /* Build configuration list for PBXNativeTarget "Arlene Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C7F0122BD9AAC00970800 /* Debug */,
+				FA1C7F0222BD9AAC00970800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1C7F0322BD9AAC00970800 /* Build configuration list for PBXNativeTarget "Arlene DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C7F0422BD9AAC00970800 /* Debug */,
+				FA1C7F0522BD9AAC00970800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1C7F0622BD9AAC00970800 /* Build configuration list for PBXNativeTarget "Arlene DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1C7F0722BD9AAC00970800 /* Debug */,
+				FA1C7F0822BD9AAC00970800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1C7ED022BD9AAA00970800 /* Project object */;
+}
