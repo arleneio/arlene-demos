@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PLACEMENTS</key>
+	<array>
+		<dict>
+			<key>KEY</key>
+			<string>79770c5cf0303ab14d21bb6e3307313b</string>
+			<key>NAME</key>
+			<string>Baseball Cap</string>
+			<key>ICON</key>
+			<string>baseball-cap</string>
+			<key>CAM</key>
+			<string>front</string>
+		</dict>
+		<dict>
+			<key>KEY</key>
+			<string>497f51f73a950a35ab22279507e5464b</string>
+			<key>NAME</key>
+			<string>Sunglasses</string>
+			<key>ICON</key>
+			<string>sunglasses</string>
+			<key>CAM</key>
+			<string>front</string>
+		</dict>
+	</array>
+</dict>
+</plist>

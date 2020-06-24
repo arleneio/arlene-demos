@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33FCFCC595E0B19C0DD0AFC5 /* Pods_Arlene_Live_StreamsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC882E344A84D2728EAAD6B2 /* Pods_Arlene_Live_StreamsTests.framework */; };
+		8F92BC8DFB1FDB0518D48D80 /* Pods_Arlene_Live_Streams_Arlene_Live_StreamsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6F5FA7456333865C38C1B4 /* Pods_Arlene_Live_Streams_Arlene_Live_StreamsUITests.framework */; };
+		93473F4DCF5C29618E3AED8E /* Pods_Arlene_Live_Streams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BBDE382C54E7A4EBAF3F31 /* Pods_Arlene_Live_Streams.framework */; };
+		A176E5FB23EBC97200A2649E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E5FA23EBC97200A2649E /* AppDelegate.swift */; };
+		A176E5FF23EBC97200A2649E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E5FE23EBC97200A2649E /* ViewController.swift */; };
+		A176E60223EBC97200A2649E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A176E60023EBC97200A2649E /* Main.storyboard */; };
+		A176E60423EBC97200A2649E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A176E60323EBC97200A2649E /* Assets.xcassets */; };
+		A176E60723EBC97200A2649E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A176E60523EBC97200A2649E /* LaunchScreen.storyboard */; };
+		A176E61223EBC97200A2649E /* Arlene_Live_StreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E61123EBC97200A2649E /* Arlene_Live_StreamsTests.swift */; };
+		A176E61D23EBC97200A2649E /* Arlene_Live_StreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E61C23EBC97200A2649E /* Arlene_Live_StreamsUITests.swift */; };
+		A176E63823EBC98F00A2649E /* ARAudience+AgoraRtcEngineDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E62B23EBC98E00A2649E /* ARAudience+AgoraRtcEngineDelegate.swift */; };
+		A176E63923EBC98F00A2649E /* AgoraLobbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E62C23EBC98E00A2649E /* AgoraLobbyVC.swift */; };
+		A176E63A23EBC98F00A2649E /* AgoraARKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E62D23EBC98E00A2649E /* AgoraARKit.swift */; };
+		A176E63B23EBC98F00A2649E /* ARBroadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E62E23EBC98E00A2649E /* ARBroadcaster.swift */; };
+		A176E63C23EBC98F00A2649E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E62F23EBC98E00A2649E /* Logger.swift */; };
+		A176E63D23EBC98F00A2649E /* ARBroadcaster+AgoraRtcEngineDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63023EBC98E00A2649E /* ARBroadcaster+AgoraRtcEngineDelegate.swift */; };
+		A176E63E23EBC98F00A2649E /* ARVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63123EBC98E00A2649E /* ARVideoSource.swift */; };
+		A176E63F23EBC98F00A2649E /* AgoraLobbyVC+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63223EBC98E00A2649E /* AgoraLobbyVC+UITextFieldDelegate.swift */; };
+		A176E64023EBC98F00A2649E /* ARBroadcaster+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63323EBC98E00A2649E /* ARBroadcaster+ARSessionDelegate.swift */; };
+		A176E64123EBC98F00A2649E /* ARBroadcaster+RenderARDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63423EBC98E00A2649E /* ARBroadcaster+RenderARDelegate.swift */; };
+		A176E64223EBC98F00A2649E /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63523EBC98F00A2649E /* SCNVector3+Extensions.swift */; };
+		A176E64323EBC98F00A2649E /* ARBroadcaster+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63623EBC98F00A2649E /* ARBroadcaster+ARSCNViewDelegate.swift */; };
+		A176E64423EBC98F00A2649E /* ARAudience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E63723EBC98F00A2649E /* ARAudience.swift */; };
+		A176E64623EBC9B400A2649E /* ArleneBroadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E64523EBC9B400A2649E /* ArleneBroadcaster.swift */; };
+		A176E64B23EBC9C200A2649E /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E64723EBC9C200A2649E /* HelperFunctions.swift */; };
+		A176E64C23EBC9C200A2649E /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E64823EBC9C200A2649E /* Int+Extensions.swift */; };
+		A176E64D23EBC9C200A2649E /* placementsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A176E64923EBC9C200A2649E /* placementsConfig.plist */; };
+		A176E64E23EBC9C200A2649E /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A176E64A23EBC9C200A2649E /* keys.plist */; };
+		A176E65123EBCAD300A2649E /* Arlene.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A176E64F23EBCACF00A2649E /* Arlene.framework */; };
+		A176E65223EBCAD300A2649E /* Arlene.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A176E64F23EBCACF00A2649E /* Arlene.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A176E65523ED16CA00A2649E /* Broadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E65423ED16CA00A2649E /* Broadcaster.swift */; };
+		A176E65723ED25BF00A2649E /* ArleneAudience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E65623ED25BF00A2649E /* ArleneAudience.swift */; };
+		A176E65923ED38D200A2649E /* UIFont+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E65823ED38D200A2649E /* UIFont+extension.swift */; };
+		A176E65B23ED3AC700A2649E /* UIButton+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176E65A23ED3AC700A2649E /* UIButton+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A176E60E23EBC97200A2649E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A176E5EF23EBC97200A2649E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A176E5F623EBC97200A2649E;
+			remoteInfo = "Arlene Live Streams";
+		};
+		A176E61923EBC97200A2649E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A176E5EF23EBC97200A2649E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A176E5F623EBC97200A2649E;
+			remoteInfo = "Arlene Live Streams";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A176E65323EBCAD300A2649E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A176E65223EBCAD300A2649E /* Arlene.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25354A9AC97658A257B61474 /* Pods-Arlene Live Streams-Arlene Live StreamsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arlene Live Streams-Arlene Live StreamsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arlene Live Streams-Arlene Live StreamsUITests/Pods-Arlene Live Streams-Arlene Live StreamsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6F5FA7456333865C38C1B4 /* Pods_Arlene_Live_Streams_Arlene_Live_StreamsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arlene_Live_Streams_Arlene_Live_StreamsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FDE2DFB2CB5696E5DDBAFF /* Pods-Arlene Live Streams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arlene Live Streams.release.xcconfig"; path = "Target Support Files/Pods-Arlene Live Streams/Pods-Arlene Live Streams.release.xcconfig"; sourceTree = "<group>"; };
+		8A6A85E7A355EAC1DBE7117C /* Pods-Arlene Live Streams-Arlene Live StreamsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arlene Live Streams-Arlene Live StreamsUITests.release.xcconfig"; path = "Target Support Files/Pods-Arlene Live Streams-Arlene Live StreamsUITests/Pods-Arlene Live Streams-Arlene Live StreamsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94F3B6BC04147D020CB2DC3B /* Pods-Arlene Live StreamsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arlene Live StreamsTests.debug.xcconfig"; path = "Target Support Files/Pods-Arlene Live StreamsTests/Pods-Arlene Live StreamsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A176E5F723EBC97200A2649E /* Arlene Live Streams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arlene Live Streams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A176E5FA23EBC97200A2649E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A176E5FE23EBC97200A2649E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A176E60123EBC97200A2649E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A176E60323EBC97200A2649E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A176E60623EBC97200A2649E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A176E60823EBC97200A2649E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A176E60D23EBC97200A2649E /* Arlene Live StreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arlene Live StreamsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A176E61123EBC97200A2649E /* Arlene_Live_StreamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arlene_Live_StreamsTests.swift; sourceTree = "<group>"; };
+		A176E61323EBC97200A2649E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A176E61823EBC97200A2649E /* Arlene Live StreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arlene Live StreamsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A176E61C23EBC97200A2649E /* Arlene_Live_StreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arlene_Live_StreamsUITests.swift; sourceTree = "<group>"; };
+		A176E61E23EBC97200A2649E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A176E62B23EBC98E00A2649E /* ARAudience+AgoraRtcEngineDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARAudience+AgoraRtcEngineDelegate.swift"; sourceTree = "<group>"; };
+		A176E62C23EBC98E00A2649E /* AgoraLobbyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraLobbyVC.swift; sourceTree = "<group>"; };
+		A176E62D23EBC98E00A2649E /* AgoraARKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraARKit.swift; sourceTree = "<group>"; };
+		A176E62E23EBC98E00A2649E /* ARBroadcaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBroadcaster.swift; sourceTree = "<group>"; };
+		A176E62F23EBC98E00A2649E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A176E63023EBC98E00A2649E /* ARBroadcaster+AgoraRtcEngineDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARBroadcaster+AgoraRtcEngineDelegate.swift"; sourceTree = "<group>"; };
+		A176E63123EBC98E00A2649E /* ARVideoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARVideoSource.swift; sourceTree = "<group>"; };
+		A176E63223EBC98E00A2649E /* AgoraLobbyVC+UITextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgoraLobbyVC+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
+		A176E63323EBC98E00A2649E /* ARBroadcaster+ARSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARBroadcaster+ARSessionDelegate.swift"; sourceTree = "<group>"; };
+		A176E63423EBC98E00A2649E /* ARBroadcaster+RenderARDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARBroadcaster+RenderARDelegate.swift"; sourceTree = "<group>"; };
+		A176E63523EBC98F00A2649E /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		A176E63623EBC98F00A2649E /* ARBroadcaster+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARBroadcaster+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		A176E63723EBC98F00A2649E /* ARAudience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAudience.swift; sourceTree = "<group>"; };
+		A176E64523EBC9B400A2649E /* ArleneBroadcaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArleneBroadcaster.swift; sourceTree = "<group>"; };
+		A176E64723EBC9C200A2649E /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		A176E64823EBC9C200A2649E /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		A176E64923EBC9C200A2649E /* placementsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = placementsConfig.plist; sourceTree = "<group>"; };
+		A176E64A23EBC9C200A2649E /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		A176E64F23EBCACF00A2649E /* Arlene.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Arlene.framework; sourceTree = "<group>"; };
+		A176E65423ED16CA00A2649E /* Broadcaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broadcaster.swift; sourceTree = "<group>"; };
+		A176E65623ED25BF00A2649E /* ArleneAudience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArleneAudience.swift; sourceTree = "<group>"; };
+		A176E65823ED38D200A2649E /* UIFont+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+extension.swift"; sourceTree = "<group>"; };
+		A176E65A23ED3AC700A2649E /* UIButton+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+extension.swift"; sourceTree = "<group>"; };
+		A8BBDE382C54E7A4EBAF3F31 /* Pods_Arlene_Live_Streams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arlene_Live_Streams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC882E344A84D2728EAAD6B2 /* Pods_Arlene_Live_StreamsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arlene_Live_StreamsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0B9F74090DBF7695FBDB81 /* Pods-Arlene Live StreamsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arlene Live StreamsTests.release.xcconfig"; path = "Target Support Files/Pods-Arlene Live StreamsTests/Pods-Arlene Live StreamsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF51525F9D6674AAA131F287 /* Pods-Arlene Live Streams.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arlene Live Streams.debug.xcconfig"; path = "Target Support Files/Pods-Arlene Live Streams/Pods-Arlene Live Streams.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A176E5F423EBC97200A2649E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93473F4DCF5C29618E3AED8E /* Pods_Arlene_Live_Streams.framework in Frameworks */,
+				A176E65123EBCAD300A2649E /* Arlene.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A176E60A23EBC97200A2649E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FCFCC595E0B19C0DD0AFC5 /* Pods_Arlene_Live_StreamsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A176E61523EBC97200A2649E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F92BC8DFB1FDB0518D48D80 /* Pods_Arlene_Live_Streams_Arlene_Live_StreamsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A176E5EE23EBC97200A2649E = {
+			isa = PBXGroup;
+			children = (
+				A176E5F923EBC97200A2649E /* Arlene Live Streams */,
+				A176E61023EBC97200A2649E /* Arlene Live StreamsTests */,
+				A176E61B23EBC97200A2649E /* Arlene Live StreamsUITests */,
+				A176E5F823EBC97200A2649E /* Products */,
+				B5A0AA088CC9083F3D6C27B0 /* Pods */,
+				BF8CB44E207E9355A55B9DD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A176E5F823EBC97200A2649E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A176E5F723EBC97200A2649E /* Arlene Live Streams.app */,
+				A176E60D23EBC97200A2649E /* Arlene Live StreamsTests.xctest */,
+				A176E61823EBC97200A2649E /* Arlene Live StreamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A176E5F923EBC97200A2649E /* Arlene Live Streams */ = {
+			isa = PBXGroup;
+			children = (
+				A176E62A23EBC97900A2649E /* AgoraARKit */,
+				A176E5FA23EBC97200A2649E /* AppDelegate.swift */,
+				A176E5FE23EBC97200A2649E /* ViewController.swift */,
+				A176E60023EBC97200A2649E /* Main.storyboard */,
+				A176E60323EBC97200A2649E /* Assets.xcassets */,
+				A176E65823ED38D200A2649E /* UIFont+extension.swift */,
+				A176E60523EBC97200A2649E /* LaunchScreen.storyboard */,
+				A176E64523EBC9B400A2649E /* ArleneBroadcaster.swift */,
+				A176E65423ED16CA00A2649E /* Broadcaster.swift */,
+				A176E65623ED25BF00A2649E /* ArleneAudience.swift */,
+				A176E65A23ED3AC700A2649E /* UIButton+extension.swift */,
+				A176E64723EBC9C200A2649E /* HelperFunctions.swift */,
+				A176E64823EBC9C200A2649E /* Int+Extensions.swift */,
+				A176E64A23EBC9C200A2649E /* keys.plist */,
+				A176E64923EBC9C200A2649E /* placementsConfig.plist */,
+				A176E60823EBC97200A2649E /* Info.plist */,
+			);
+			path = "Arlene Live Streams";
+			sourceTree = "<group>";
+		};
+		A176E61023EBC97200A2649E /* Arlene Live StreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A176E61123EBC97200A2649E /* Arlene_Live_StreamsTests.swift */,
+				A176E61323EBC97200A2649E /* Info.plist */,
+			);
+			path = "Arlene Live StreamsTests";
+			sourceTree = "<group>";
+		};
+		A176E61B23EBC97200A2649E /* Arlene Live StreamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A176E61C23EBC97200A2649E /* Arlene_Live_StreamsUITests.swift */,
+				A176E61E23EBC97200A2649E /* Info.plist */,
+			);
+			path = "Arlene Live StreamsUITests";
+			sourceTree = "<group>";
+		};
+		A176E62A23EBC97900A2649E /* AgoraARKit */ = {
+			isa = PBXGroup;
+			children = (
+				A176E62D23EBC98E00A2649E /* AgoraARKit.swift */,
+				A176E62C23EBC98E00A2649E /* AgoraLobbyVC.swift */,
+				A176E63223EBC98E00A2649E /* AgoraLobbyVC+UITextFieldDelegate.swift */,
+				A176E63723EBC98F00A2649E /* ARAudience.swift */,
+				A176E62B23EBC98E00A2649E /* ARAudience+AgoraRtcEngineDelegate.swift */,
+				A176E62E23EBC98E00A2649E /* ARBroadcaster.swift */,
+				A176E63023EBC98E00A2649E /* ARBroadcaster+AgoraRtcEngineDelegate.swift */,
+				A176E63623EBC98F00A2649E /* ARBroadcaster+ARSCNViewDelegate.swift */,
+				A176E63323EBC98E00A2649E /* ARBroadcaster+ARSessionDelegate.swift */,
+				A176E63423EBC98E00A2649E /* ARBroadcaster+RenderARDelegate.swift */,
+				A176E63123EBC98E00A2649E /* ARVideoSource.swift */,
+				A176E62F23EBC98E00A2649E /* Logger.swift */,
+				A176E63523EBC98F00A2649E /* SCNVector3+Extensions.swift */,
+			);
+			path = AgoraARKit;
+			sourceTree = "<group>";
+		};
+		B5A0AA088CC9083F3D6C27B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF51525F9D6674AAA131F287 /* Pods-Arlene Live Streams.debug.xcconfig */,
+				85FDE2DFB2CB5696E5DDBAFF /* Pods-Arlene Live Streams.release.xcconfig */,
+				25354A9AC97658A257B61474 /* Pods-Arlene Live Streams-Arlene Live StreamsUITests.debug.xcconfig */,
+				8A6A85E7A355EAC1DBE7117C /* Pods-Arlene Live Streams-Arlene Live StreamsUITests.release.xcconfig */,
+				94F3B6BC04147D020CB2DC3B /* Pods-Arlene Live StreamsTests.debug.xcconfig */,
+				EC0B9F74090DBF7695FBDB81 /* Pods-Arlene Live StreamsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF8CB44E207E9355A55B9DD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A176E64F23EBCACF00A2649E /* Arlene.framework */,
+				A8BBDE382C54E7A4EBAF3F31 /* Pods_Arlene_Live_Streams.framework */,
+				7A6F5FA7456333865C38C1B4 /* Pods_Arlene_Live_Streams_Arlene_Live_StreamsUITests.framework */,
+				AC882E344A84D2728EAAD6B2 /* Pods_Arlene_Live_StreamsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A176E5F623EBC97200A2649E /* Arlene Live Streams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A176E62123EBC97200A2649E /* Build configuration list for PBXNativeTarget "Arlene Live Streams" */;
+			buildPhases = (
+				D027C6FCFA29898439B75D5C /* [CP] Check Pods Manifest.lock */,
+				A176E5F323EBC97200A2649E /* Sources */,
+				A176E5F423EBC97200A2649E /* Frameworks */,
+				A176E5F523EBC97200A2649E /* Resources */,
+				F248B64F168FB7D49C2345AD /* [CP] Embed Pods Frameworks */,
+				A176E65323EBCAD300A2649E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arlene Live Streams";
+			productName = "Arlene Live Streams";
+			productReference = A176E5F723EBC97200A2649E /* Arlene Live Streams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A176E60C23EBC97200A2649E /* Arlene Live StreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A176E62423EBC97200A2649E /* Build configuration list for PBXNativeTarget "Arlene Live StreamsTests" */;
+			buildPhases = (
+				EDDB62B2E0C6B3531EE5C19C /* [CP] Check Pods Manifest.lock */,
+				A176E60923EBC97200A2649E /* Sources */,
+				A176E60A23EBC97200A2649E /* Frameworks */,
+				A176E60B23EBC97200A2649E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A176E60F23EBC97200A2649E /* PBXTargetDependency */,
+			);
+			name = "Arlene Live StreamsTests";
+			productName = "Arlene Live StreamsTests";
+			productReference = A176E60D23EBC97200A2649E /* Arlene Live StreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A176E61723EBC97200A2649E /* Arlene Live StreamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A176E62723EBC97200A2649E /* Build configuration list for PBXNativeTarget "Arlene Live StreamsUITests" */;
+			buildPhases = (
+				4E395A321E9A0B56298AE9AF /* [CP] Check Pods Manifest.lock */,
+				A176E61423EBC97200A2649E /* Sources */,
+				A176E61523EBC97200A2649E /* Frameworks */,
+				A176E61623EBC97200A2649E /* Resources */,
+				DCE966ACC67CAFB534C5BB24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A176E61A23EBC97200A2649E /* PBXTargetDependency */,
+			);
+			name = "Arlene Live StreamsUITests";
+			productName = "Arlene Live StreamsUITests";
+			productReference = A176E61823EBC97200A2649E /* Arlene Live StreamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A176E5EF23EBC97200A2649E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hermes;
+				TargetAttributes = {
+					A176E5F623EBC97200A2649E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A176E60C23EBC97200A2649E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A176E5F623EBC97200A2649E;
+					};
+					A176E61723EBC97200A2649E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A176E5F623EBC97200A2649E;
+					};
+				};
+			};
+			buildConfigurationList = A176E5F223EBC97200A2649E /* Build configuration list for PBXProject "Arlene Live Streams" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A176E5EE23EBC97200A2649E;
+			productRefGroup = A176E5F823EBC97200A2649E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A176E5F623EBC97200A2649E /* Arlene Live Streams */,
+				A176E60C23EBC97200A2649E /* Arlene Live StreamsTests */,
+				A176E61723EBC97200A2649E /* Arlene Live StreamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A176E5F523EBC97200A2649E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A176E64E23EBC9C200A2649E /* keys.plist in Resources */,
+				A176E60723EBC97200A2649E /* LaunchScreen.storyboard in Resources */,
+				A176E60423EBC97200A2649E /* Assets.xcassets in Resources */,
+				A176E64D23EBC9C200A2649E /* placementsConfig.plist in Resources */,
+				A176E60223EBC97200A2649E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A176E60B23EBC97200A2649E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A176E61623EBC97200A2649E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E395A321E9A0B56298AE9AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arlene Live Streams-Arlene Live StreamsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D027C6FCFA29898439B75D5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arlene Live Streams-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE966ACC67CAFB534C5BB24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arlene Live Streams-Arlene Live StreamsUITests/Pods-Arlene Live Streams-Arlene Live StreamsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arlene Live Streams-Arlene Live StreamsUITests/Pods-Arlene Live Streams-Arlene Live StreamsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arlene Live Streams-Arlene Live StreamsUITests/Pods-Arlene Live Streams-Arlene Live StreamsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDDB62B2E0C6B3531EE5C19C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arlene Live StreamsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F248B64F168FB7D49C2345AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arlene Live Streams/Pods-Arlene Live Streams-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arlene Live Streams/Pods-Arlene Live Streams-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arlene Live Streams/Pods-Arlene Live Streams-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A176E5F323EBC97200A2649E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A176E5FF23EBC97200A2649E /* ViewController.swift in Sources */,
+				A176E64C23EBC9C200A2649E /* Int+Extensions.swift in Sources */,
+				A176E63923EBC98F00A2649E /* AgoraLobbyVC.swift in Sources */,
+				A176E63B23EBC98F00A2649E /* ARBroadcaster.swift in Sources */,
+				A176E65923ED38D200A2649E /* UIFont+extension.swift in Sources */,
+				A176E63E23EBC98F00A2649E /* ARVideoSource.swift in Sources */,
+				A176E5FB23EBC97200A2649E /* AppDelegate.swift in Sources */,
+				A176E63823EBC98F00A2649E /* ARAudience+AgoraRtcEngineDelegate.swift in Sources */,
+				A176E63D23EBC98F00A2649E /* ARBroadcaster+AgoraRtcEngineDelegate.swift in Sources */,
+				A176E64123EBC98F00A2649E /* ARBroadcaster+RenderARDelegate.swift in Sources */,
+				A176E63A23EBC98F00A2649E /* AgoraARKit.swift in Sources */,
+				A176E63C23EBC98F00A2649E /* Logger.swift in Sources */,
+				A176E64623EBC9B400A2649E /* ArleneBroadcaster.swift in Sources */,
+				A176E65B23ED3AC700A2649E /* UIButton+extension.swift in Sources */,
+				A176E64023EBC98F00A2649E /* ARBroadcaster+ARSessionDelegate.swift in Sources */,
+				A176E64423EBC98F00A2649E /* ARAudience.swift in Sources */,
+				A176E65523ED16CA00A2649E /* Broadcaster.swift in Sources */,
+				A176E64323EBC98F00A2649E /* ARBroadcaster+ARSCNViewDelegate.swift in Sources */,
+				A176E65723ED25BF00A2649E /* ArleneAudience.swift in Sources */,
+				A176E63F23EBC98F00A2649E /* AgoraLobbyVC+UITextFieldDelegate.swift in Sources */,
+				A176E64223EBC98F00A2649E /* SCNVector3+Extensions.swift in Sources */,
+				A176E64B23EBC9C200A2649E /* HelperFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A176E60923EBC97200A2649E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A176E61223EBC97200A2649E /* Arlene_Live_StreamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A176E61423EBC97200A2649E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A176E61D23EBC97200A2649E /* Arlene_Live_StreamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A176E60F23EBC97200A2649E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A176E5F623EBC97200A2649E /* Arlene Live Streams */;
+			targetProxy = A176E60E23EBC97200A2649E /* PBXContainerItemProxy */;
+		};
+		A176E61A23EBC97200A2649E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A176E5F623EBC97200A2649E /* Arlene Live Streams */;
+			targetProxy = A176E61923EBC97200A2649E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A176E60023EBC97200A2649E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A176E60123EBC97200A2649E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A176E60523EBC97200A2649E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A176E60623EBC97200A2649E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A176E61F23EBC97200A2649E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A176E62023EBC97200A2649E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A176E62223EBC97200A2649E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF51525F9D6674AAA131F287 /* Pods-Arlene Live Streams.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Arlene Live Streams/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.arlene.demo.livestream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A176E62323EBC97200A2649E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FDE2DFB2CB5696E5DDBAFF /* Pods-Arlene Live Streams.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Arlene Live Streams/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.arlene.demo.livestream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A176E62523EBC97200A2649E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F3B6BC04147D020CB2DC3B /* Pods-Arlene Live StreamsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene Live StreamsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arlene.io.Arlene-Live-StreamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arlene Live Streams.app/Arlene Live Streams";
+			};
+			name = Debug;
+		};
+		A176E62623EBC97200A2649E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0B9F74090DBF7695FBDB81 /* Pods-Arlene Live StreamsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene Live StreamsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arlene.io.Arlene-Live-StreamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arlene Live Streams.app/Arlene Live Streams";
+			};
+			name = Release;
+		};
+		A176E62823EBC97200A2649E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25354A9AC97658A257B61474 /* Pods-Arlene Live Streams-Arlene Live StreamsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene Live StreamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arlene.io.Arlene-Live-StreamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arlene Live Streams";
+			};
+			name = Debug;
+		};
+		A176E62923EBC97200A2649E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6A85E7A355EAC1DBE7117C /* Pods-Arlene Live Streams-Arlene Live StreamsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
+				INFOPLIST_FILE = "Arlene Live StreamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arlene.io.Arlene-Live-StreamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arlene Live Streams";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A176E5F223EBC97200A2649E /* Build configuration list for PBXProject "Arlene Live Streams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A176E61F23EBC97200A2649E /* Debug */,
+				A176E62023EBC97200A2649E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A176E62123EBC97200A2649E /* Build configuration list for PBXNativeTarget "Arlene Live Streams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A176E62223EBC97200A2649E /* Debug */,
+				A176E62323EBC97200A2649E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A176E62423EBC97200A2649E /* Build configuration list for PBXNativeTarget "Arlene Live StreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A176E62523EBC97200A2649E /* Debug */,
+				A176E62623EBC97200A2649E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A176E62723EBC97200A2649E /* Build configuration list for PBXNativeTarget "Arlene Live StreamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A176E62823EBC97200A2649E /* Debug */,
+				A176E62923EBC97200A2649E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A176E5EF23EBC97200A2649E /* Project object */;
+}
